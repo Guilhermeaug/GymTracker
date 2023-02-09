@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:pool:mssql://azuresqlserverglobal.database.windows.net:1433/azuresqlserver
+    username: WanidaBenshoof
+    password: 8fdKJl3$nlNv3049jsKK
+  sql:
+    init:
+      mode: embedded
+server:
+  address: 0.0.0.0
